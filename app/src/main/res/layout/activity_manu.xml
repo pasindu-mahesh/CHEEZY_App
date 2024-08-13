@@ -42,7 +42,13 @@
             android:orientation="horizontal">
 
 
-
+            <Button
+                android:id="@+id/button3"
+                android:layout_width=""
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lightorange" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
