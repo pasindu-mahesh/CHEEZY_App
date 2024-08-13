@@ -23,6 +23,9 @@
         </activity>
 
         <activity android:name=".SignUpActivity"/>
+        <activity android:name=".SignInActivity"/>
+        <activity android:name=".OnboardingActivity1"/>
+        <activity android:name=".SplashActivity"/>
     </application>
 
 </manifest>
