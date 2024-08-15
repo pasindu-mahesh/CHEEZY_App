@@ -3,17 +3,16 @@ package com.example.cheezy
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class OnboardingActivity1 : AppCompatActivity() {
+class OnboardingActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboard1)
+        setContentView(R.layout.activity_onboard2)
 
         val text = findViewById<Button>(R.id.button2)
         text.setOnClickListener{
-            val intent = Intent (this,OnboardingActivity2::class.java)
+            val intent = Intent (this,OnboardingActivity3::class.java)
             startActivity(intent)
         }
     }
