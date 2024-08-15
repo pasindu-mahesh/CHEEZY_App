@@ -11,9 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Food Here"
-        android:textSize="25dp"
-        android:textStyle="bold"
+        android:textColor="@color/LightningYellow"
+        android:textSize="50dp"
 
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,8 +24,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="327dp"
+        android:layout_height="276dp"
         android:layout_marginTop="4dp"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,18 +38,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pick Up or Delivery"
-        android:textSize="20dp"
+        android:textColor="@color/LightningYellow"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintVertical_bias="0.543" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="We make food ordering fast, simple and\n\t\tfree - no matter if you order online or\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tcash."
+        android:text="We make food ordering fast, simple and\n\tfree - no matter if you order online or\n\t\t\t\t\t\t\t\t\t\t\tcash."
+        android:textColor="@color/LightningYellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -68,6 +72,8 @@
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.25" />
 </androidx.constraintlayout.widget.ConstraintLayout>

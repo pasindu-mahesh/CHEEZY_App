@@ -11,25 +11,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Food Here"
-        android:textSize="25dp"
-        android:textStyle="bold"
+        android:textColor="@color/LightningYellow"
+        android:textSize="50dp"
 
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.109" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="296dp"
+        android:layout_height="279dp"
         android:layout_marginTop="4dp"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.408"
         app:srcCompat="@drawable/page1" />
 
     <TextView
@@ -37,25 +40,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose A Tasty Dish"
-        android:textSize="20dp"
+        android:textColor="@color/LightningYellow"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.525" />
+        app:layout_constraintVertical_bias="0.621" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order anything you want from your Favourite\n\t\t\t\t\t\t\t\t\t\t\t\t\t\trestaurant."
+        android:text="Order anything you want from your Favourite\n\t\t\t\t\t\t\t\t\t\t\trestaurant."
+        android:textColor="@color/LightningYellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <Button
         android:id="@+id/button2"
@@ -68,6 +71,8 @@
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.29" />
 </androidx.constraintlayout.widget.ConstraintLayout>
